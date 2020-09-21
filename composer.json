@@ -1,0 +1,24 @@
+{
+    "name": "hashemi/php-csv-export",
+    "description": "A simple & lightweight csv export package for php",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hashemi Rafsan",
+            "email": "rafsanhashemi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "5.2.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hashemi\\CsvExport\\": "src/"
+        }
+    }
+}
